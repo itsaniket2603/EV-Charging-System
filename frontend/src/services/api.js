@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api';  // Your backend URL
+const API_URL = 'https://backend-charging-station-production.up.railway.app/api';  // Your backend URL
 
 const instance = axios.create({
   baseURL: API_URL,
